@@ -3,7 +3,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 
 # Carregar o modelo treinado (Keras)
-model = load_model('model/model.h5')
+model = load_model('model.keras')
 
 # Classes mapeadas (exemplo)
 classes = ['A', 'B', 'C', 'L', 'V']
