@@ -30,7 +30,7 @@ Usamos uma abordagem baseada em Visão Computacional para:
 - Treinamento em vídeos
 - Mais classes de gestos
 
-## Como usar
+## Como Usar
 
 1. Clone o repositório:
 ```bash
