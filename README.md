@@ -34,8 +34,8 @@ Usamos uma abordagem baseada em Visão Computacional para:
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seuusuario/Libras-Detector.git
-cd Libras-Detector
+git clone https://github.com/seuusuario/libras-language-detector.git
+cd libras-language-detector
 ```
 
 2. Instale as dependências:
