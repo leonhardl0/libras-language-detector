@@ -14,7 +14,7 @@ Usamos uma abordagem baseada em Visão Computacional para:
 ## Estrutura
 
 - `main.py` - Código principal que detecta e classifica gestos
-- `model/` - Diretório para armazenar o modelo treinado (`model.keras`)
+- `model/` - Diretório que armazena o modelo treinado (`model.keras`)
 - `requirements.txt` - Dependências do projeto
 
 ## Tecnologias usadas
