@@ -2,13 +2,13 @@ import cv2
 import numpy as np
 from tensorflow.keras.models import load_model
 
-# Carregar o modelo treinado (Keras)
+# carregar o modelo treinado (Keras)
 model = load_model('model.keras')
 
-# Classes mapeadas (exemplo)
+# classes mapeadas (exemplo)
 classes = ['A', 'B', 'C', 'L', 'V']
 
-# Inicializar a webcam
+# inicializar a webcam
 cap = cv2.VideoCapture(0)
 
 def preprocess(img):
@@ -22,7 +22,7 @@ while True:
     if not ret:
         break
 
-    # Exemplo simples: ROI fixa para demo (poderia usar YOLO aqui)
+    # exemplo simples: ROI fixa para demo
     x, y, w, h = 100, 100, 300, 300
     cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
 
